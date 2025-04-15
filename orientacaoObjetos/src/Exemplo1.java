@@ -17,7 +17,7 @@ public class Exemplo1 {
         }
         
 
-
+        teclado.close();
 
     }
 }
