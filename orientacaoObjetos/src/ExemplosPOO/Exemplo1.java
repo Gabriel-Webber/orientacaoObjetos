@@ -1,3 +1,4 @@
+package ExemplosPOO;
 import java.util.Scanner;
 
 public class Exemplo1 {
