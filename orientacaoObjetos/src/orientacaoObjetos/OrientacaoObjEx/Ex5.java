@@ -10,10 +10,10 @@ public class Ex5 {
         System.out.println("Escreva seu salário: ");
         obj.salarioB = teclado.nextDouble();
 
-        obj.bonus = (obj.salarioB * 0.20);
+        obj.bonus = (obj.salarioB * 0.20) + obj.salarioB;
 
 
-        obj.salarioL = (obj.salarioB*0.93);
+        obj.salarioL = obj.bonus - (obj.bonus*0.07);
         
         System.out.println(obj.salarioL);
 
