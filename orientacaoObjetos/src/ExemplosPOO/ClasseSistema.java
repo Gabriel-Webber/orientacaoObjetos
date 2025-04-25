@@ -22,7 +22,7 @@ public class ClasseSistema {
         cliente.razaoSocial = teclado.nextLine();
 
         //atributos do objeto fornecedor
-        System.out.println("Cadastro de fornecedor");git
+        System.out.println("Cadastro de fornecedor");
         fornecedor.nome = teclado.nextLine();
 
         System.out.println("Cadastro de CPF");
