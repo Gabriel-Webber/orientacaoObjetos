@@ -22,7 +22,9 @@ public class MetodoRetornoParametro {
         int velociadeTotal = (this.velocidade + turbo);
 
         System.out.println("Velocidadde total " + velociadeTotal);
+        teclado.close();
         return velociadeTotal;
+    
     }
 
 

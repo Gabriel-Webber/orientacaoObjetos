@@ -7,8 +7,8 @@ public class Principal {
         MetodoRetorno retorno = new MetodoRetorno();
         MetodoRetornoParametro carro = new MetodoRetornoParametro();
 
-        //gwa.imprimirMetodos();
-        //retorno.calcularNotas();
+        gwa.imprimirMetodos();
+        retorno.calcularNotas();
 
         carro.turboCarro(30);
 
