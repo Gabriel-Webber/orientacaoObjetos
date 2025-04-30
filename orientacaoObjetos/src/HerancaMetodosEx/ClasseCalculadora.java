@@ -56,7 +56,6 @@ public class ClasseCalculadora {
         this.b = teclado.nextDouble();
 
         return a / b;
-
     }
 
 

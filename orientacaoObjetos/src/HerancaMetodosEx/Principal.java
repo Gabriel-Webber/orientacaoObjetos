@@ -15,19 +15,19 @@ public class Principal {
 
 
 
-        //imprimir.apresentar();
-        //area.area();
-        //tf.produto();
-        //prova.aprovação();
-        //bom.livro();
-        //anima.somAnimal();
-        //film.filmasso();
-        //fa.calculoTotal();
-        //hor.fds();
-        //System.out.println(sla.adicao() );
-        //System.out.println(sla.subtracao() );
-        //System.out.println(sla.multiplicacao() );
-        //System.out.println(sla.divisão() );
+        imprimir.apresentar();
+        area.area();
+        tf.produto();
+        prova.aprovação();
+        bom.livro();
+        anima.somAnimal();
+        film.filmasso();
+        fa.calculoTotal();
+        hor.fds();
+        System.out.println(sla.adicao() );
+        System.out.println(sla.subtracao() );
+        System.out.println(sla.multiplicacao() );
+        System.out.println(sla.divisão() );
 
     }
 }
