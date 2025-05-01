@@ -14,7 +14,7 @@ public class ClasseCalcul {
         this.a = teclado.nextDouble();
         System.out.println("E o valor de B");
         this.b = teclado.nextDouble();
-
+        teclado.close();
     }
 
     void descobrir() {
@@ -29,6 +29,7 @@ public class ClasseCalcul {
         } else if (this.digitado.equals("-")) {
             System.out.println(this.a - this.b);
         }
+        teclado.close();
     }
 
 }

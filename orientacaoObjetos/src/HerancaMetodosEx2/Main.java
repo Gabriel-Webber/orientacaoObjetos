@@ -10,8 +10,15 @@ public class Main {
     ClasseCalcul calculadora = new ClasseCalcul();
     ClassePessoa pessoa = new ClassePessoa();
     ClasseVitoria vitoria = new ClasseVitoria();
-
-
+    ClasseClassificacao filme = new ClasseClassificacao();
+    Corrida corrida = new Corrida();
+    Animal anima = new Animal();
+    Turma tur = new Turma();
+    Festa fes = new Festa();
+    Musica mus = new Musica();
+    Calorias ca = new Calorias();
+    Concurso con = new Concurso();
+    Andoid an = new Andoid();
 
     // exibição
 
@@ -27,8 +34,25 @@ public class Main {
     // calculadora.descobrir();
     //pessoa.cadastro();
     //pessoa.exibir();
-    vitoria.leituraDd();
-    vitoria.descobrir();
+    //vitoria.leituraDd();
+    //vitoria.descobrir();
+    //filme.lerdados();
+    //filme.podeAssistir();
+    //corrida.leitura();
+    //corrida.calculo();
+    //anima.ler();
+    //anima.animal();
+    //tur.ler();
+    //fes.ler();
+    //fes.exibir();
+    //mus.fds();
+    //mus.dura();
+    //ca.fds();
+    //ca.dura();
+    //con.leituraDd();
+    //con.descobrir();
+    an.leituraDd();
+    an.fds();
 
   }
 

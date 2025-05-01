@@ -2,9 +2,9 @@ package HerancaMetodosEx2;
 
 import java.util.Scanner;
 
-public class ClasseVitoria {
+public class Concurso {
     public String nome;
-    public int pont; 
+    public int nota;
 
     void leituraDd() {
         Scanner teclado = new Scanner(System.in);
@@ -12,18 +12,18 @@ public class ClasseVitoria {
         System.out.println("qual é seu nome");
         this.nome = teclado.nextLine();
         
-        System.out.println("Digite sua pontuação");
-        this.pont = teclado.nextInt();
+        System.out.println("Digite sua nota");
+        this.nota = teclado.nextInt();
         teclado.close();
     }
 
     void descobrir() {
         Scanner teclado = new Scanner(System.in);
 
-        if (this.pont >= 1000) {
-            System.out.println("Vitória!!");
+        if (this.nota >= 70) {
+            System.out.println("Passou!!");
         } else {
-            System.out.println("Tente novamente");
+            System.out.println("Eliminado");
         }
         teclado.close();
     }
