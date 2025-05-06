@@ -51,8 +51,8 @@ public class Main {
     //ca.dura();
     //con.leituraDd();
     //con.descobrir();
-    an.leituraDd();
-    an.fds();
+    //an.leituraDd();
+    //an.fds();
 
   }
 
